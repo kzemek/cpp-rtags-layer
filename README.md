@@ -1,6 +1,6 @@
 # c++-rtags Spacemacs layer
 
-This layer augments C++ support provided by [Spacemac's c-c++ layer](https://github.com/syl20bnr/spacemacs/tree/develop/layers/%2Blang/c-c%2B%2B).
+This layer augments C++ support provided by [Spacemacs` c-c++ layer](https://github.com/syl20bnr/spacemacs/tree/develop/layers/%2Blang/c-c%2B%2B).
 
 ## Features
 
@@ -19,7 +19,7 @@ Simply clone the repository into your emacs.d private directory:
 git clone https://github.com/kzemek/cpp-rtags-layer ~/.emacs.d/private/c++-rtags
 ```
 
-and enable the layer in `.spacemacs` along with `c-c++` (without clang support):
+and enable the layer in `~/.spacemacs` along with `c-c++` (without clang support):
 
 ```lisp
 ...
