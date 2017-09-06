@@ -32,6 +32,11 @@ dotspacemacs-configuration-layers
 ...
 ```
 
+If your `c-c++` layer doesn't include `cmake-ide` support you may additionally need to fetch it from `develop` branch:
+```shell
+cd ~/.emacs.d && git fetch && git checkout origin/develop layers/+lang/c-c++/
+```
+
 ## Project setup
 
 * Install [rtags](https://github.com/Andersbakken/rtags)
